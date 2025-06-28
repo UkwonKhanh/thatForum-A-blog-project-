@@ -1,9 +1,10 @@
-# thatForum-A-blog-project-
+# thatForum-A-blog-project
 This project is a CRUD project that allows users to write blogs or ask questions.
 
 
 ## Description
 This is a detailed description of what is inside this project.
+Please read the Report_Demo.pdf for more info.
 - Technology: PHP, HTML, JavaScript, MySQL, XAMPP, Bootstrap.
 - Visual Design: layout using navigation diagram
 - Testing: Created testing tables with test cases to verify functionalities
