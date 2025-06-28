@@ -1,0 +1,94 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Importing a modern and elegant font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: #08dddd; /* Green background */
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.question-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 300px; /* Increased margin-bottom */
+  }
+  
+.question-title {
+    width: 250px; /* Adjust width as needed */
+    white-space: nowrap; /* Prevent wrapping */
+    overflow: hidden; /* Hide overflow */
+    text-overflow: ellipsis; /* Add ellipsis for overflow */
+    font-size: 1.2em;
+    margin-bottom: 20px; /* Added margin-bottom */
+  }
+  
+  .question-meta {
+    margin-bottom: 20px;
+  }
+  
+  .question-content {
+    margin-bottom: 20px;
+  }
+  
+  .comments {
+    margin-top: 20px;
+  }
+
+.error-messages {
+    background-color: #cf0d0d;
+    border: 1px solid #913232;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.error-messages ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.error-messages li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.error-messages li:last-child {
+    border-bottom: none;
+}
+.comment-form {
+  margin-bottom: 20px;
+}
+.comment-input {
+  margin-bottom: 10px;
+}
+.comments {
+  margin-top: 20px;
+}
+.bg-light {
+  background-color: #98FF98 !important;
+}
+.navbar {
+  padding: 15px 20px; 
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+}
